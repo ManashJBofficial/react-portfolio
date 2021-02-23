@@ -74,7 +74,7 @@ const Portfolio = () => {
                                 </Description>
                                 <ButtonGrp>
                                     <Button onClick={() => openInNewTab('https://github.com/ManashJBofficial/react-portfolio')}>Github</Button>
-                                    <Button>View Live</Button> 
+                                    <Button onClick={() => openInNewTab('https://devmj.netlify.app')}>View Live</Button> 
                                 </ButtonGrp> 
                             </Item2>
                         </Tilt>
