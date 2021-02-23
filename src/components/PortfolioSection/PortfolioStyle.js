@@ -47,7 +47,7 @@ export const TextWrapper =styled.div`
    
 `
 export const HeadText =styled.div` 
-    font-size: 36px;
+    font-size: 2rem;
     text-align:center;
     margin:2rem;
     z-index:5;
@@ -108,6 +108,7 @@ export const ProjectGrid =styled.div`
             "item2"
             "item3";  
     }
+    
 `
 export const Item1 =styled.div`
     
@@ -121,6 +122,11 @@ export const Item1 =styled.div`
     border-radius:5px;
     background-color:var(--cardBg); 
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    @media screen and (max-width: 376px){
+        width:21rem;
+        height:21rem;
+    }
+
 `
 export const Item2 =styled.div`
     
@@ -134,6 +140,10 @@ export const Item2 =styled.div`
     border-radius:5px;
     background-color:var(--cardBg); 
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    @media screen and (max-width: 376px){
+        width:21rem;
+        height:21rem;
+    }
     
 `
 export const Item3 =styled.div`
@@ -148,11 +158,11 @@ export const Item3 =styled.div`
     border-radius:5px;
     background-color:var(--cardBg); 
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    @media screen and (max-width: 376px){
+        width:21rem;
+        height:21rem;
+    }
 `
-// export const Item4 =styled.div`
-//     background-color:skyblue;
-//     grid-area: item4;
-// `
 export const Img1 =styled.div`
 
     background-image: url(${img1});

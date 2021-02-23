@@ -28,6 +28,7 @@ export const FooterGrid =styled.div`
     display:flex;
     flex-direction:column;
     gap:2rem;
+    
 `
 export const SocialIcons =styled.div`
     display:flex;
@@ -43,6 +44,9 @@ export const Sitemap =styled.div`
     gap:3rem;
     justify-content:center;
     align-items:center;
+    @media screen and (max-width: 376px){
+        gap:1.4rem;
+    }
 `
 export const SiteLink =styled(LinkS)`
     cursor: pointer;
@@ -59,4 +63,8 @@ export const CopyRight =styled.div`
     width:100%;
     height: 3rem;
     font-family: var(--headFont);
+    font-size:1rem;
+    @media screen and (max-width: 376px){
+        font-size:0.8rem;
+    }
 `

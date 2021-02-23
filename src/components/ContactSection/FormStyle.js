@@ -7,8 +7,8 @@ export const NameInput =styled.div`
     margin-bottom:1rem;
     
     input{
-        width:260px;
-        height: 30px;
+        width:16.25rem;
+        height: 1.875rem;
         border: none;
         border-bottom: 1px solid var(--subTextColor);
         background: none;
@@ -20,7 +20,11 @@ export const NameInput =styled.div`
             @media screen and (max-width: 768px){
                 width:300px;
             }
-        }   
+        }  
+        @media screen and (max-width: 376px){
+            width:13rem;
+            height: 1.8rem;
+        } 
     }
     label{
         margin-bottom:0.5rem;
@@ -49,6 +53,10 @@ export const EmailInput =styled.div`
                 width:300px;
             }
         }
+        @media screen and (max-width: 376px){
+            width:13rem;
+            height: 1.8rem;
+        } 
     }
     label{
         margin-bottom:0.5rem;
@@ -74,6 +82,10 @@ export const MessageInput =styled.div`
             outline: none;
             border-bottom: 1px solid var(--headtextColor);
         }
+        @media screen and (max-width: 376px){
+            width:13rem;
+            height: 1.8rem;
+        } 
     }
     label{
         margin-bottom:0.5rem;
