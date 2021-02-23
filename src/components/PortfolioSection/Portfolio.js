@@ -73,7 +73,7 @@ const Portfolio = () => {
                                     <Tag>STYLED COMPONENTS</Tag>
                                 </Description>
                                 <ButtonGrp>
-                                    <Button>Github</Button>
+                                    <Button onClick={() => openInNewTab('https://github.com/ManashJBofficial/react-portfolio')}>Github</Button>
                                     <Button>View Live</Button> 
                                 </ButtonGrp> 
                             </Item2>
@@ -97,12 +97,6 @@ const Portfolio = () => {
                             </Item3>
                         </Tilt>
                         </Fade>
-                        {/* <Item4>4
-                            <Img4/>
-                            <Title>Project 4</Title>
-                            <Description></Description>
-                            <Button>View Live Project</Button>
-                        </Item4> */}
                     </ProjectGrid>
                 </PortfolioWrapper>
             </PortfolioContainer>
