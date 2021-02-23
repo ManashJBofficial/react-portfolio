@@ -1,0 +1,11 @@
+:root {
+    --headFont: 'Playfair Display', serif;
+    --subFont: 'Chivo', sans-serif;
+    --bgColor: #043145;
+    --headtextColor: #00FFBD;
+    --subTextColor: #B2E5FB;
+    --navColor: #c5ebfc;
+    --cardBg: #eeee;
+    --footerBg: #03293A;
+    --logoFont: 'blackpast';
+}
