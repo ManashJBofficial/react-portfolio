@@ -22,7 +22,8 @@ const Form = () => {
   // }
   return (
     <div>
-      <form name="contact" data-netlify="true">
+      <form name="contact_form" method="POST" netlify>
+        <input type="hidden" name="contact_form" value="contact_form" />
         <NameInput>
           <label htmlFor="nameInput">Name</label>
           <input type="text" id="nameInput" name="name" required></input>
