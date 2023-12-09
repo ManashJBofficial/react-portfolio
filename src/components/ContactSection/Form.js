@@ -11,23 +11,23 @@ import {
 
 const Form = () => {
     const notify = () => toast.success('Mail Sent Successfully !');
-    function sendEmail(e){
-        e.preventDefault();
+    // function sendEmail(e){
+    //     e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_id_mjb', e.target, 'user_6NVfcYOPSNthhz4JmL3fC')
-        .then((result) => {
-            console.log(result.text);
-            // alert('Message Sent Successfully !');
-            notify();
-        }, (error) => {
-            console.log(error.text);
-        });
-        e.target.reset();
+    //     emailjs.sendForm('gmail', 'template_id_mjb', e.target, 'user_6NVfcYOPSNthhz4JmL3fC')
+    //     .then((result) => {
+    //         console.log(result.text);
+    //         // alert('Message Sent Successfully !');
+    //         notify();
+    //     }, (error) => {
+    //         console.log(error.text);
+    //     });
+    //     e.target.reset();
         
-    }
+    // }
     return (
         <div>
-                <form  onSubmit={sendEmail}>
+                <form name="contact" method="POST" netlify>
                     <NameInput>
                         <label htmlFor="nameInput">Name</label>
                         <input type="text" id="nameInput"   
